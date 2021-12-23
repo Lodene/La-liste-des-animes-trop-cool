@@ -1,0 +1,62 @@
+#loginbigtitle {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #004cbe;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+#logindesc {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(31, 31, 31);
+}
+
+.logininput {
+    border-width: 0px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.form-group>label {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginform>input {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+#loginform {
+    margin-top: 50px;
+}
+
+.bluebar {
+    height: 3px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #004cbe;
+}
+
+#noaccount {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
