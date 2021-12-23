@@ -47,7 +47,7 @@
                 </a>
             </div>
             <div id="troisiemeSectionHeader">
-                <div>
+                <div class="premiere section">
                     <a href="#">
                         <div class="troisiemeSectionHeaderTexte">
                             Connexion 
@@ -55,7 +55,7 @@
                     </a>
                 </div>
                 
-                <div>
+                <div class="deuxieme section">
                     <a href="#">
                         <div class="troisiemeSectionHeaderTexte">
                             Inscription 
@@ -72,6 +72,6 @@
         </div>
 
 
-
     </body>
+    <script src="{{asset('js/header.js')}}"></script>
 </html>
