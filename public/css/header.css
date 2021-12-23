@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+:root {
+    --fond: rgb(202, 195, 195);
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 2px solid rgb(197, 190, 190);
+    border-radius: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+}
+
+header > div > div {
+    margin-right: 10px;
+}
+
+#deuxiemeSectionHeader i {
+    color: black;
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#deuxiemeSectionHeader div {
+    padding: 10px;
+}
+
+#logoHeader {
+    width: 50px;
+}
+
+#barDeRechercherHeader {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+
+#barDeRechercherHeader input{
+    border: none;
+}
+
+#barDeRechercherHeader input:focus {
+    border: none;
+}
+
+#barDeRechercherHeader a {
+    color: black;
+    text-decoration: none;
+}
+
+#deuxiemeSectionHeader div:hover {
+    background-color: var(--fond);
+    border-radius: 1em;
+}
+
+#troisiemeSectionHeader a {
+    text-decoration: none;
+    color: black;    
+}
+
+#troisiemeSectionHeader > div {
+    background-color: blue;
+    transform: skew(45deg);
+    padding: 25px;
+}
+
+.troisiemeSectionHeaderTexte {
+    transform: skew(-45deg);
+}
